@@ -1,0 +1,3 @@
+product_id,product_name,warehouse_id,stock_on_hand,last_restock_date
+1004,"Noise-Cancelling Headphones",W3,10,2025-10-01
+1002,"Running Shoes",W2,40,2025-10-20

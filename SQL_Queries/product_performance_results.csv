@@ -1,0 +1,5 @@
+product_id,product_name,category,total_units_transacted,units_sold,units_returned,revenue_completed,revenue_returned,return_rate_percent
+1002,"Running Shoes",Footwear,1,1,0,79.99,0.00,0.00
+1001,"Classic Tee",Apparel,2,2,0,39.98,0.00,0.00
+1003,"Coffee Mug",Home,1,1,0,9.50,0.00,0.00
+1004,"Noise-Cancelling Headphones",Electronics,1,0,1,0.00,199.00,100.00
