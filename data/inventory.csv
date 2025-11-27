@@ -1,0 +1,5 @@
+product_id,warehouse_id,stock_on_hand,last_restock_date
+1001,W1,120,2025-10-18
+1002,W2,40,2025-10-20
+1003,W1,300,2025-09-30
+1004,W3,10,2025-10-01

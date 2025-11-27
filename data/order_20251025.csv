@@ -1,0 +1,4 @@
+order_id,order_date,product_id,qty,unit_price,user_id,order_status
+50001,2025-10-25,1001,2,19.99,9001,completed
+50002,2025-10-25,1003,1,9.50,9002,completed
+50003,2025-10-25,1004,1,199.00,9003,returned
