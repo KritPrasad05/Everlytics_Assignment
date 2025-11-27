@@ -74,7 +74,7 @@ Everlytics_Assignment/
 ```bash
 python -m venv Everlytics_Assignment
 source Everlytics_Assignment/bin/activate   # Mac/Linux
-Everlytics_Assignment\Scriptsctivate     # Windows
+Everlytics_Assignment\Scripts\Activate     # Windows
 ```
 
 ### 2. Install project requirements
@@ -107,13 +107,13 @@ astro dev init
 astro dev start --no-cache
 ```
 
-### 4. Copy ETL package and data into the container
+### 4. Copy the ETL package and data into the container
 ```bash
 docker cp quickshop_etl airflow-astro-api:/usr/local/airflow/project/
 docker cp data airflow-astro-api:/usr/local/airflow/project/
 ```
 
-### 5. Test ETL execution inside container
+### 5. Test ETL execution inside the container
 ```bash
 docker exec -it airflow-api-server-1 python -c "from quickshop_etl.cli import run_for_date; print(run_for_date('20251025', '/usr/local/airflow/project/data', '/usr/local/airflow/project/output'))"
 ```
@@ -181,7 +181,7 @@ airflow-docker/requirements.txt
   ✔ Airflow DAG  
   ✔ Working Docker environment  
   ✔ End-to-end ETL execution  
-  ✔ Correct output artifacts  
+  ✔ Correct output artefacts  
 
 For any additional improvements, CI/CD or cloud deployment can also be added.
 
